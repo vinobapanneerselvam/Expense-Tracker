@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Expense Tracker 💰</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="icon" href="images/photo3.jpg" />
+</head>
+
+
+<body>
+  <div class="container">
+    <header>
+      <h1>💰 Expense Tracker</h1>
+      <p>Track your spending. Save smartly. 💡</p>
+    </header>
+
+
+    <main>
+      <section class="first-img">
+        <img src="images/photo1.jpg" alt="wallet">
+      </section>
+
+
+<section class="input-guide">
+  <h3>📝 Add a New Expense</h3>
+  <p>Fill in what you spent and how much. Example: "Snacks 🍟 - ₹50"</p>
+</section>
+
+
+
+
+      <section class="input-section">
+        <input type="text" id="description" placeholder="ex:Groceries">
+        <input type="number" id="amount" placeholder="Amount ">
+        <button onclick="addExpense()">Add Expense ➕</button>
+      </section>
+
+      <section class="expense-list">
+        <h2>📋 Your Transactions</h2>
+        <ul id="list"></ul>
+      </section>
+
+      <section class="summary">
+        <h2>💹 Total Spent: ₹<span id="total">0</span></h2>
+        <img src="images/photo2.jpg" alt="Wallet" class="wallet-img">
+      </section>
+    </main>
+
+    
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
