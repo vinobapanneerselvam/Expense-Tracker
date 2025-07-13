@@ -30,7 +30,7 @@ JavaScript
   money-bag.png-Top header image
 
 
-What I Did
+What I Did:
 I designed and developed this project using only HTML, CSS, and JavaScript.
 I focused on making the site interactive and visually appealing using icons and images. 
 This project helped me practice DOM manipulation, styling, and building small but useful web applications.
